@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>ketilezeti</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body, h1, h2, h3, h4, p { margin:0; padding:0;}
+		
+		@media (min-width:519px) {
+			#container {  max-width:700px; }
+		}
+		@media (min-width:1038px) {
+			#container {  max-width:1024px; }
+		}
+@media (max-width:696px) {
+			#container {  max-width:341px; }
+		}
+		#container {  margin: 0 auto; }
+		#logo { text-align: center; margin:25px; }
+		#footer { text-align: center; }
+		.left { float: left; }
+		.clear { clear: both; height:0px; }
+		.left33 { float:left; }
+		.box { min-width:235px; max-width:341px;}
+		.sample { height:200px; margin:0px 5px 5px 0px; overflow: hidden; position:relative; }
+		.sample img { width: 100%; }
+		.text { position: absolute; top:0; bottom:0; left:0; right:0; height:100%; width: 100%; }
+		.text a { display: block; margin-top:80px; text-decoration: none; font-size: 25px; font-weight: 200; color: black; opacity: 0; width: 100%; text-align: center; }
+		.sample:hover .overlay { opacity: 0.5 }
+		.sample:hover a { opacity: 1; position: absolute; }
+		.overlay { cursor: pointer; position: absolute; top:0; bottom:0; left:0; right:0; height:100%; width: 100%; opacity:0; background-color: #f26522; }
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="logo"><img src="images/logo.png"></img></div>
+		<div class="left33 box">
+			<div class="sample">
+				<div class="overlay"></div>
+				<div class="text">
+					<a href="item.html">nje dy tre kater pese gjashte</a>
+				</div>
+				<img src="images/1.jpg"></img>
+			</div>
+		</div>
+
+		<div class="left33 box"> <div class="sample"><img src="images/2.jpg"></img></div> </div>
+		<div class="left33 box"> <div class="sample"><img src="images/3.jpg"></img></div> </div>
+		<div class="left33 box"> <div class="sample"><img src="images/5.jpg"></img></div> </div>
+		<div class="left33 box"> <div class="sample"><img src="images/6.jpg"></img></div> </div>
+		<div class="left33 box"> <div class="sample"><img src="images/7.jpg"></img></div> </div>
+		<div class="left33 box"> <div class="sample"><img src="images/8.jpg"></img></div> </div>
+		<div class="clear"></div>
+		<div id="footer"><h3>© Copyright 2017</h3></div>
+	</div>
+</body>
+</html>
