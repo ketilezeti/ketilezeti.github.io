@@ -24,6 +24,15 @@
 		#logo { text-align: center; margin:25px; }  
 		#logo img { zoom: 0.6; }
 		#imgContainer { position:relative; }
+		@media (min-width:519px) {
+			#watermark { zoom:0.7; }
+		}
+		@media (min-width:1038px) {
+			#watermark { zoom:1; }
+		}
+		@media (max-width:696px) {
+			#watermark { zoom:0.5; }
+		}
 		#watermark { position: absolute; bottom: 0px; right: 0px; opacity: 0.8; }
 		#footer { text-align: center; margin-top: 25px; }
 		#cover { width: 100%; display: block; pointer-events: none; }
