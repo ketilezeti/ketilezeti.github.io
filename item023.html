@@ -20,7 +20,10 @@
 	<style>
 		body, h1, h2, h3, h4, p { margin:0; padding:0;}
 		#container { max-width:1024px; margin: 0 auto; }
-		#logo { text-align: center; margin:25px; }  #logo img { zoom: 0.6; }
+		#logo { text-align: center; margin:25px; }  
+		#logo img { zoom: 0.6; }
+		#imgContainer { position:relative; }
+		#watermark { position: absolute; bottom: 0px; right: 0px; opacity: 0.8; }
 		#footer { text-align: center; margin-top: 25px; }
 		#cover { width: 100%; display: block; pointer-events: none; }
 		.nocopy {-webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
@@ -28,8 +31,11 @@
 </head>
 <body>
 	<div id="container" class="nocopy">
-		<div id="logo"><a href="./"><img src="images/logo.png"></a></img></div>
-		<img id="cover" src="images/1024/023.jpg"></img>
+		<div id="logo"><a href="./"><img src="images/logo.png"></img></a></div>
+		<div id="imgContainer">
+			<img id="watermark" src="images/watermark.png"></img>
+			<img id="cover" src="images/1024/023.jpg"></img>
+		</div>
 		<p>Ballokumet e ditetes se veres. Kam ndjekur me perpikemeri kete receten dhe kane dale shuuume te shijshme. Perberesit:0.5 kg sheqer normal,0.5 kg gjalpë,1 kg miell misri i situr,50 gr miell gruri,8 kokrra vezë,1 filxhan kafeje qumësht. Tretet gjalpi dhe pastaj rrihet me sheqerin deri sa të bëhet një masë e bardhë. Ndërsa rrihet sheqeri me gjalpin, shtohen vezet nje nga nje. Rrahja vazhdon derisa te behet nje mase e vetme. Ne fund shtohet qumeshti. Pastaj hidhet mielli dalëngadalë duke vazhduar përzjerjen. Kujdes në hedhjen e miellit, sepse mielli i tepërt i bën të forta ballakumet pas pjekjes. Prandaj, pasi është harxhuar sasia e paracaktuar e miellit, brumi lihet rreth 15 minuta në qetësi pavarësisht se ai mund të duket i qullët. Kjo kohë mjafton që grimcat e miellit të thithin lagështirën e brumit të qullët. Pas kësaj brumit mund t’i shtohet edhe një dorë miell nëse është e nevojshme kur ai mbetet si i qullët. Pudroset tepsija me miell dhe mbi të vendoset topat e brumit me madhësinë e grushtit të dorës. Pastaj futet tepsija në pjekje për rreth 40-45 minuta në 170 °C deri sa të formojë pak kore.
         </p>
 		<div id="footer"><h3>&copy; Copyright 2017</h3></div>

@@ -30,7 +30,10 @@
 			#container {  max-width:341px; }
 		}
 		#container {  margin: 0 auto; }
-		#logo { text-align: center; margin:25px; }  #logo img { zoom: 0.6; }
+		#logo { text-align: center; margin:25px; }  
+		#logo img { zoom: 0.6; }
+		#imgContainer { position:relative; }
+		#watermark { position: absolute; bottom: 0px; right: 0px; opacity: 0.8; }
 		#footer { text-align: center; margin-top: 25px; }
 		.left { float: left; }
 		.clear { clear: both; height:0px; }
@@ -47,7 +50,9 @@
 </head>
 <body>
 	<div id="container">
-		<div id="logo"><a href="./"><img src="images/logo.png"></a></img></div>
+		<div id="logo"><a href="./"><img src="images/logo.png"></img></a></div>
+		<div id="imgContainer">
+			<img id="watermark" src="images/watermark.png"></img>
 		
 		<div class="left33 box"><div class="sample"><div class="overlay"></div><div class="text"><a href="item035.html">arome deti</a></div><img src="images/341/035.jpg"></img></div></div>
 		<div class="left33 box"><div class="sample"><div class="overlay"></div><div class="text"><a href="item036.html">15 min pasta</a></div><img src="images/341/036.jpg"></img></div></div>

@@ -20,7 +20,10 @@
 	<style>
 		body, h1, h2, h3, h4, p { margin:0; padding:0;}
 		#container { max-width:1024px; margin: 0 auto; }
-		#logo { text-align: center; margin:25px; }  #logo img { zoom: 0.6; }
+		#logo { text-align: center; margin:25px; }  
+		#logo img { zoom: 0.6; }
+		#imgContainer { position:relative; }
+		#watermark { position: absolute; bottom: 0px; right: 0px; opacity: 0.8; }
 		#footer { text-align: center; margin-top: 25px; }
 		#cover { width: 100%; display: block; pointer-events: none; }
 		.nocopy {-webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
@@ -28,8 +31,11 @@
 </head>
 <body>
 	<div id="container" class="nocopy">
-		<div id="logo"><a href="./"><img src="images/logo.png"></a></img></div>
-		<img id="cover" src="images/1024/063.jpg"></img>
+		<div id="logo"><a href="./"><img src="images/logo.png"></img></a></div>
+		<div id="imgContainer">
+			<img id="watermark" src="images/watermark.png"></img>
+			<img id="cover" src="images/1024/063.jpg"></img>
+		</div>
 		<p>Granola e bere vet, ska nevoje per pjekje, ska nga ato shurupet e cuditshme gjithe sheqerna te rafinuara. E ben, e ke per tere javen, nuk prishet. Ne nje tas te madh perzieva tershere te pjekur, fara te te gjitha llojeve te mundeshme, kikirik, kajsi, hurma arbaie, recel, mjate me shumice, kanelle, cokollate te shkrire. E shtrova ne tepsi dhe e vendosa ne frigorifer derisa te mpikset. Eshte gati, priteni si tju vije per mbare.
         </p>
 		<div id="footer"><h3>&copy; Copyright 2017</h3></div>

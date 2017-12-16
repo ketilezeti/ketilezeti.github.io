@@ -20,7 +20,10 @@
 	<style>
 		body, h1, h2, h3, h4, p { margin:0; padding:0;}
 		#container { max-width:1024px; margin: 0 auto; }
-		#logo { text-align: center; margin:25px; }  #logo img { zoom: 0.6; }
+		#logo { text-align: center; margin:25px; }  
+		#logo img { zoom: 0.6; }
+		#imgContainer { position:relative; }
+		#watermark { position: absolute; bottom: 0px; right: 0px; opacity: 0.8; }
 		#footer { text-align: center; margin-top: 25px; }
 		#cover { width: 100%; display: block; pointer-events: none; }
 		.nocopy {-webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
@@ -28,8 +31,11 @@
 </head>
 <body>
 	<div id="container" class="nocopy">
-		<div id="logo"><a href="./"><img src="images/logo.png"></a></img></div>
-		<img id="cover" src="images/1024/046.jpg"></img>
+		<div id="logo"><a href="./"><img src="images/logo.png"></img></a></div>
+		<div id="imgContainer">
+			<img id="watermark" src="images/watermark.png"></img>
+			<img id="cover" src="images/1024/046.jpg"></img>
+		</div>
 		<p>Po e nis me embelsiren , ka nje shtrese miell integral me gjalp, djath dhie ( i preferuari im ) dhe siper fike ne fleta me kanelle. Ne fund eshte pjekur ne furre. Karkalecat me kete lengun magjik ju mbeten ne mendje. Bej apo jo rizoto apo pasta me karkaleca, nje pjate te tille po u futen karkalecat ne shtepi e beje gjithmone. Karkaleat shuuume pak te zier i hedh ne kete perzierja: shuuume vaj ullire, uthull molle, leng portokall ose shege, kripe pak fare, piper, faralulekuqe, fara speci djeges. Hahet me buke qe ngjyhet ne kete salce. Me shume buke derisa salca mbaron.
         </p>
 		<div id="footer"><h3>&copy; Copyright 2017</h3></div>
